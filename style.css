@@ -1,0 +1,99 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("backgorund.jpg");
+   background-size: cover;
+    background-position: cover;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.container{
+    width:90%;
+    max-width:white;
+    padding:20px;
+    margin:40px 0;
+    border-radius:10px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+.profile-card{
+    padding:20px 0;
+}
+.profile-pic{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+h1{
+    font-size:40px;
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+}
+.hindi{
+    font-family: cursive;
+    color:deeppink;
+}
+p{
+    font-size:20px;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+.subtitle{
+    color:#080707;
+    font-size:16px;
+}
+.section{
+    text-align: left;
+    margin-top: 20px;
+    
+}
+h2{
+    border-bottom:2px solid #ff00bf;
+    padding-bottom: 5px;
+    color:#e449a1;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: #cdbbc4;
+   
+}
+ul li{
+    
+    margin:5px 0;
+    padding:10px;
+    border-radius: 5px;
+}
+ ul.li.strong{
+    font-weight: bold;
+    color: darkmagenta;
+}
+.contact a{
+    text-decoration: none;
+    font-size: bold;
+    color:darkmagenta;
+    background: #cdbbc4;
+   
+    text-align: center;
+    
+}
+.contact a:hover{
+    text-decoration:underline;
+    
+    
+}
+.section ul{
+    justify-content: center;
+    margin-bottom: 20px;
+    background: #cdbbc4;
+}
